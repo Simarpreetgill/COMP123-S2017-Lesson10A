@@ -16,7 +16,7 @@ namespace COMP123_S2017_Lesson9A
     /// <summary>
     /// This is the SuperVillain Class
     /// </summary>
-    public class SuperVillan : SuperHuman, IHasMalice
+    public class SuperVillain : SuperHuman, IHasMalice
     {
         // PRIVATE INSTANCE VARIABLES
         private int _malice;
@@ -47,5 +47,7 @@ namespace COMP123_S2017_Lesson9A
         {
             this.Malice = malice;
         }
+
+
     }
 }

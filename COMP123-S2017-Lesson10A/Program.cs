@@ -22,7 +22,7 @@ namespace COMP123_S2017_Lesson10A
             Console.WriteLine("Karma: " + superHero.Karma);
             Console.WriteLine();
 
-            SuperVillan superVillain = new SuperVillan("SuperVillain Dude", 20);
+            SuperVillain superVillain = new SuperVillain("SuperVillain Dude", 20);
             superVillain.AddPower("Shadow Casting", 50);
             superVillain.AddPower("Mind Control", 40);
             superVillain.AddPower("Combat Senses", 30);
